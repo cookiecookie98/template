@@ -18,6 +18,14 @@ section{
             grid-column: span 4;
             height: 1000px;
             border-top-left-radius: 1rem;
+
+            .video__box__large{
+                width: 80%;
+                height: 70%;
+                margin: 10%;
+                background-color: #c0392b;
+                border-radius: 1rem;
+            }
         }
 
         .show__media__small{
@@ -66,7 +74,6 @@ section{
         }
 
         .show__device__3{
-            // background-color: violet;
             grid-column: span 4;
             border-bottom-right-radius: 1rem;
         }
